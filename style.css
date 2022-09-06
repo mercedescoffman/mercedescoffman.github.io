@@ -1,5 +1,5 @@
-#paragraph {font-style: italic}
-.paragraph {color: rgb(9, 31, 18)}
-  
-h1 {color:rgb(3, 48, 44);
-    font: 16px italic, Neue;}
+h1 {color:rgb(39, 145, 136);
+    font-family: 26px italics, fantasy, serif;}
+
+    #paragraph {font-family: fantasy;}
+    .paragraph {color: rgb(6, 70, 32)}
