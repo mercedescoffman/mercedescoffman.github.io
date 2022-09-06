@@ -1,22 +1,5 @@
-!DOCTYPE html
-{html lang="en-US"}
-{head} 
-{title} Style Sheet {/title} 
-<style> #paragraph {font-style: italic};
-    .paragraph {color: rgb(26, 63, 42)}
-    </style>
-    {link rel="stylesheet" href="style.css"}
-    {/head}
-
-    
-{body}    
-h1 {style="color: rgb(3, 48, 13);"} Style Sheet! /h1
-               
-    {p} id="paragraph">This is a paragraph has an ID called paragraph.{/p} 
-
-    {p} class="paragraph">This first paragraph is one of two paragraphs that will be styled the same way.{/p}
-
-    {p} class="paragraph">This is the second paragraph that will be styled the same way.{/p}
-            
-{/body}
-{/html;}
+#paragraph {font-style: italic}
+.paragraph {color: rgb(9, 31, 18)}
+  
+h1 {color:rgb(3, 48, 44);
+    font: 16px italic, Neue;}
