@@ -3,11 +3,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fcffe0;
-}
-li {
-  float: left;
-}
+    background-color: #fcffe0;}
+li {  float: left;}
 
 li a {
   display: block;
@@ -15,34 +12,25 @@ li a {
   text-align: center;
   font-weight: bold;
   padding: 25px;
-  text-decoration: none;
-}
+  text-decoration: none;}
 html {
-    box-sizing: border-box;
-  }
+    box-sizing: border-box; }
   *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
+    box-sizing: inherit; } 
   
   body {
     font: 1.2em/1.2 Helvetica, aria, sans-serif;
-    margin: 0 3%;
-  }
+    margin: 0 3%; }
   
   h1 {
     font-size: 2em;
-    margin: .9em 0 0 0;
-  }
+    margin: .9em 0 0 0; }
   
   h2 {
     font-size: 1.5em;
-    margin: 1.5em 0 0 0;
-  }
+    margin: 1.5em 0 0 0;}
   
-  img {
-    max-width: 100%;
-  }
+  img {  max-width: 100%; }
   
   figure {
     background: rgb(0, 0, 0);
@@ -50,34 +38,25 @@ html {
     color: rgb(255, 255, 255);
     margin: 0 0 25px 0;
     padding: 10px;
-    text-align: center;
-    
-  }
+    text-align: center; }
   
   figcaption {
-    font-size: .8em;
-  }
+    font-size: .8em;}
   
       /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px;} 
-    }
+    div.example {font-size: 30px;}  }
   
   @media screen and (min-width: 794px) {
     body {
       background: (color(#DAF7A6));
-      margin: 25px 6%;
-    }
+      margin: 25px 6%;}
     
     figure {
       float: left;
       width: 45%;
-      margin-right: 4.5%;
-    }
-  }
-  
-  
+      margin-right: 4.5%;}  }
+   
 @media screen and (min-width: 1020px) {
     body {
       background: (color(#283a07));
@@ -107,5 +86,7 @@ html {
   
     .footer {
       grid-area: footer; }
-    
-
+ 
+   
+  /* For resourse page indent mla */
+  div.b { text-indent: -2em;}
