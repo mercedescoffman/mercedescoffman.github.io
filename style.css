@@ -30,7 +30,10 @@ html {
     font-size: 1.5em;
     margin: 1.5em 0 0 0;}
   
-  img {  max-width: 80%; }
+  img {  max-width: 100%; }
+  img {
+    width: 300px,
+   }
   
   figure {
     background: rgb(0, 0, 0);
