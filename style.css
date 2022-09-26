@@ -17,7 +17,7 @@ html {
   
   img {  max-width: 100%; }
   img {
-    width: 300px,
+    viewport-fit: 2,4;
    }
   
   figure {
