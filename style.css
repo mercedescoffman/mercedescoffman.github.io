@@ -1,3 +1,9 @@
+@font-face { 
+
+  font-family: Inner Tight; /*this is where we give our font a name so we can use it!*/
+  
+  src: url("static/InterTight-Regular.ttffont.ttf"); /*remember this is how we link to files in CSS!*/ }
+
 html {
     box-sizing: border-box; }
   *, *:before, *:after {
@@ -16,8 +22,7 @@ html {
     margin: 1.5em 0 0 0;}
   
   img {  max-width: 80%; }
-  img { viewport-fit: contain;
-   }
+  img { viewport-fit: contain; }
   
   figure {
     background: rgb(0, 0, 0);
@@ -73,6 +78,3 @@ html {
   
     .footer {
       grid-area: footer; }
- 
-   
-
