@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title> About Page </title>
+    <link rel="shortcut icon" type="image" href="https://mercedescoffman.github.io/tea.png" >
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css"><!-- adds the blue background --> 
     <style>
@@ -22,15 +23,37 @@
         h1 {padding: 10px; font-size: 14pt;}
 
         /*media queries*/
+
+        .box { 
+        margin: 100px auto;
+        background-image: url(https://mercedescoffman.github.io/mountain.jpg);
+        background-size: cover;
+        text-align: left;
+        text-size-adjust: auto;
+        font: Inter Tight, sans-serif;
+        font-size: 15px;}
+      .pic {
+          width: 30px;
+          height: 30px;}
+      .picbig {
+          position: absolute;
+          width: 0px;
+          -webkit-transition: width 0.3s linear 0s;
+          transition: width 0.3s linear 0s; 
+          z-index: 100; }
+      .pic:hover + .picbig{
+          width:200px; }
+      
+
     </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<div class="wrapper">
+    <div class="wrapper">
     <div class="box sidebar"></div>
     <div class="box content"><br /></div>
     <div class="box footer"></div>
-  </div>
+
 
      <!-- Title: About Page 
     Use: To allow viewers to get to know me. 
@@ -57,9 +80,13 @@
     <p> As for my education, I have also went to many universities and colleges such Pennsylvania College of Technology for Nursing in Williamsport, Pennsylvania. Collin County Community Colleges for Interior Design and also Nursing in Frisco, Texas. One last school I can add to my lengthy list of educational trials would be Drury University to get a masters in Architecture. I would call myself a jack of all trades and a master of none at this point in my life. </p>
     <p> Here is my <a href="https://mercedescoffman.github.io/Resume.pdf" title = "Resume"> Resume</a>.</p>
 
+    <iframe width="480" height="270" src="https://www.powtoon.com/embed/erQlFnXuEsB/" frameborder="0" allowfullscreen></iframe>
+
 <blockquote> "Your eyes can be so cruel, just as I can be so cruel." - David Bowie </blockquote>
 
-    <footer> Mercedes Coffman, mchh9@umsystem.edu 
+<div class="box">
+    <footer>
+<img class="pic" src=" https://mercedescoffman.github.io/icons8-email-32.png"> <img class="picbig" src=" https://mercedescoffman.github.io/icons8-email-32.png"> <a href="mchh9@umsystem.edu" title = "Email"></a> mchh9@umsystem.edu <img class="pic" src="https://mercedescoffman.github.io/icons8-phone-100.png"></a> <img class="picbig" src="https://mercedescoffman.github.io/icons8-phone-100.png"> </a> Mercedes Coffman +1 (888) 888-8888
 
 <h2>Disclaimer for ISLT 4355/7355</h2>
     <p>If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at mchh9@umsystem.edu. Our Disclaimer was generated with the help of the <a href="https://www.disclaimergenerator.net/">Free Disclaimer Generator</a>.</p>
