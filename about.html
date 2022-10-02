@@ -2,29 +2,25 @@
 
 <html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <title> About Page </title>
+    <title>Home Page</title> 
     <link rel="shortcut icon" type="image" href="https://mercedescoffman.github.io/tea.png" >
+    <meta charset="utf-8">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css"><!-- adds the blue background --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /*entire page style*/
-        * {margin: 0; padding: 0;}
-        body {margin: 1% auto; width: 90%; border: 1px solid black;}
+      /*entire page style*/
+      * {margin: 0; padding: 0;}
+      body {margin: 1% auto; width: 90%; border: 1px solid black;}
 
-        /*semantic element styles*/
-        header {border-bottom: 1px solid black;}
-        nav {border-bottom: 1px solid black;}
-        main {float: left; height: 350px; width: 84%;}
-        aside {float: right; width: 15%; height: 350px; border-left: 1px solid black;}
-        footer {border-top: 1px solid black; clear: both;}
-
-        /*content styling*/
-        h1 {padding: 10px; font-size: 14pt;}
-
-        /*media queries*/
-
-        .box { 
+      /*semantic element styles*/
+      header {border-bottom: 1px solid black;}
+      nav {border-bottom: 1px solid black;}
+      main {float: left; height: 350px; width: 84%;}
+      aside {float: right; width: 15%; height: 350px; border-left: 1px solid black;}
+      footer {border-top: 1px solid black; clear: both;}
+     
+      .box { 
         margin: 100px auto;
         background-image: url(https://mercedescoffman.github.io/mountain.jpg);
         background-size: cover;
@@ -42,16 +38,21 @@
           transition: width 0.3s linear 0s; 
           z-index: 100; }
       .pic:hover + .picbig{
-          width:200px; }
+          width:200px;
+      }
+      
       
 
-    </style>
+      /*content styling*/
+      h1 {padding: 10px; font-size: 15pt;}
+
+      /*media queries*/
+  </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
     <div class="wrapper">
     <div class="box sidebar"></div>
-    <div class="box content"><br /></div>
+    <div class="box content"></div>
     <div class="box footer"></div>
 
 
@@ -60,7 +61,7 @@
     Author: Mercedes Coffman 
     School/Term: Mizzou University, Fall 2022 
     Developed: September 20, 2022
-    Tested: September 28, 2022 --> 
+    Tested: October 2, 2022 --> 
     
      <!-- Add comments here --> 
      <nav id="nav">
@@ -100,5 +101,6 @@
     <p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p>
           
     </footer>
+</div>
 </body>
 </html> 
