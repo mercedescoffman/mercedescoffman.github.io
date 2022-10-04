@@ -82,8 +82,8 @@ html {
       grid-area: footer; 
 
 
-@media print {
-  * { background: transparent !important;
+@media print 
+  *  background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;}
@@ -117,4 +117,3 @@ html {
       orphans: 3;
       widows: 3;
       font-size: 11pt; }
-}
