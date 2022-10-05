@@ -117,3 +117,19 @@ html {
       orphans: 3;
       widows: 3;
       font-size: 11pt; }
+
+table th {
+  text-align: left;
+  background-color: #ffcfc0;
+  color: #000
+  padding: 4px 30px 4px 8px;
+}
+
+table td {
+  border: 1px solid #e3e3e3
+  padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td {
+  background-color: #DAF7A6;
+}
