@@ -118,18 +118,27 @@ html {
       widows: 3;
       font-size: 11pt; }
 
-table th {
+table {
+  width: 400px;
+}
+table,th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+
+}
+table th{
   text-align: left;
   background-color: #ffcfc0;
   color: #000
   padding 4px 30px 4px 8px;
 }
-
-table td {
-  border: 1px solid #e3e3e3
-  padding 4px 8px;
+caption {
+  text-align: center;
 }
 
-table tr:nth-child(odd) td {
+table tr:nth-child(even) td {
   background-color: #DAF7A6;
+}
+main {
+  overflow: scroll;
 }
